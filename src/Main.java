@@ -47,5 +47,13 @@ public class Main {
 //  Задание 7
         System.out.println("Разница весов (вычитание): " + differenceWeight);
         System.out.println("Разница весов (остаток от деления): " + secondBoxerWeight % firstBoxerWeight);
+//  Задание 8.1
+        var allTime = 640;
+        var workingShift = 8;
+        var workers = allTime / workingShift;
+        System.out.println("Всего работников в компании - " + workers + " человек");
+//  Задание 8.2
+        var additionalWorkers = 94;
+        System.out.println("Если в компании работает " + (workers + additionalWorkers) + " человек, то всего " + (workers + additionalWorkers) * workingShift + " часов работы может быть поделено между сотрудниками");
     }
 }
