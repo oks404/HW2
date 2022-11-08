@@ -37,5 +37,15 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+//  Задание 6
+        var firstBoxerWeight = 78.2;
+        var secondBoxerWeight = 82.7;
+        var totalWeight = firstBoxerWeight + secondBoxerWeight;
+        System.out.println("Общий вес спортсменов: " + totalWeight);
+        var differenceWeight = secondBoxerWeight - firstBoxerWeight;
+        System.out.println("Разница весов: " + differenceWeight);
+//  Задание 7
+        System.out.println("Разница весов (вычитание): " + differenceWeight);
+        System.out.println("Разница весов (остаток от деления): " + secondBoxerWeight % firstBoxerWeight);
     }
 }
