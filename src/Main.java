@@ -21,5 +21,39 @@ public class Main {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
+//  Задание 4
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend * 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+//  Задание 5
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+//  Задание 6
+        var firstBoxerWeight = 78.2;
+        var secondBoxerWeight = 82.7;
+        var totalWeight = firstBoxerWeight + secondBoxerWeight;
+        System.out.println("Общий вес спортсменов: " + totalWeight);
+        var differenceWeight = secondBoxerWeight - firstBoxerWeight;
+        System.out.println("Разница весов: " + differenceWeight);
+//  Задание 7
+        System.out.println("Разница весов (вычитание): " + differenceWeight);
+        System.out.println("Разница весов (остаток от деления): " + secondBoxerWeight % firstBoxerWeight);
+//  Задание 8.1
+        var allTime = 640;
+        var workingShift = 8;
+        var workers = allTime / workingShift;
+        System.out.println("Всего работников в компании - " + workers + " человек");
+//  Задание 8.2
+        var additionalWorkers = 94;
+        System.out.println("Если в компании работает " + (workers + additionalWorkers) + " человек, то всего " + (workers + additionalWorkers) * workingShift + " часов работы может быть поделено между сотрудниками");
     }
 }
